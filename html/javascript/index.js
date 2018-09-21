@@ -33,7 +33,8 @@ function convertCurrency() {
                 var obj=JSON.parse(this.responseText);
                 var fact=obj.rates[to];
                 if(fact !=undefined){
-                    result.innerHTML=parseFloat(amount)*parseFloat(fact).toFixed(1)
+                    var num=parseFloat(amount)*parseFloat(fact);
+                    result.innerHTML=num.toFixed(2);
                 }
                 
             }
