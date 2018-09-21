@@ -1,0 +1,14 @@
+.main-panel {
+    margin-top: 200px;
+}
+div.row {
+    padding: 10px;
+}
+.header {
+    background-color: black;
+    color:white;
+    font-weight: bold;
+}
+.panel {
+    border-color: darkblue;
+}
