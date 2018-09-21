@@ -12,3 +12,12 @@ div.row {
 .panel {
     border-color: darkblue;
 }
+footer {
+    background-color: black;
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+    text-align: center;
+    position: static;
+    padding: 30px;
+    margin: 2px;
+}
